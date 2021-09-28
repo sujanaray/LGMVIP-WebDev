@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    font-family: 'Optima', sans-serif !important;  
+
+}
+.container {
+    margin: 5% 10%;
+}
+
+.title {
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.details{
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    line-height: 2.3em;
+    margin-left: auto;
+}
+
+.main{
+    font-size: 18px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 25%;
+}
+button {
+    background-color: #a983c2; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+.button{
+    text-align: center;
+}
+
+.main p{
+    text-align: center;
+}
+.main p:nth-child(1) {
+    font-weight: bold;
+}
+
+.result p{
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    line-height: 1.5em;
+    margin-left: auto;
+}
+
+.error {
+    color: red;
+    margin: 30px 0 0 30vh;
+}
+
+/* hide buttom */
+@media print {
+    .button {
+        display: none;
+    }
+}
+
+.main table{
+	margin: 20px auto;
+    margin-left: 170px;
+}
+.main table, th, td {
+
+    text-align: left;
+    table-layout: fixed;
+    padding: 8px 30px;
+
+}
+
+.main th{
+	color: #3d2081;
+}
+
+.main tr:hover {
+    background-color: #b1b1b1c4;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+}

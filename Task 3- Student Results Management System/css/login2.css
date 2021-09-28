@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    width: 100vw;
+   
+    font-family: 'Optima', sans-serif !important;
+    background-image: url("https://i2.wp.com/files.123freevectors.com/wp-content/original/108149-light-purple-wave.jpg?w=800&q=95");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background-color: #5d3a6db0;
+    justify-content: space-between;
+    min-height: 140px;
+    padding: 0 10%;
+
+}
+.logo {
+    color: #fff;
+    font-size: 1.5rem;
+    align-items: center;
+    display: flex;
+}
+
+.heading1{
+    margin-left: 150px !important;
+    font-size: 40px;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    grid-gap: 2rem;
+    
+    align-content: center;
+    
+}
+.main1{
+    display: block;
+    align-items: center;
+    grid-gap: 2rem;
+    
+    align-content: center;
+    height: calc(100vh - 90px);
+}
+.heading {
+    color: black;
+    font-weight: 500;
+    font-size: 1.5rem;
+    border-bottom: 3px solid #3e1c64;
+    width: 150px;
+    margin-bottom: 30px;
+}
+
+.login,.search{
+    padding: 20px;
+    width: 75%;
+    margin: 0 auto;
+}
+.login,.search1{
+    padding: 20px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+/* form */
+input,select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    display: block;
+}
+
+input[type=text],input[type=password],select{
+    background-color: #c2c2c2a2;
+    color: #474b4f ;
+    border: none;
+    letter-spacing: 0.2em;
+}
+
+input[type=submit]{
+    background-color: #b394c7ea;
+    color: rgb(24, 24, 24);
+    border: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type=submit]:hover {
+    background-color: #69388ac5;
+    color: black;
+}
+#footer {
+    
+    padding: 5% 0;
+  }
+  .footer_data {
+    padding: 0 25%;
+    padding-top: 3%;
+  }
+  
+  i {
+    padding: 2% 5%;
+  }
+  
+  .footer_headings {
+    font-size: 15px;
+    font-weight: bolder;
+  }
